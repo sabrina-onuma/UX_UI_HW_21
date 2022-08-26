@@ -1,13 +1,10 @@
-.jumbotron {
-    background-image: url("/images/chaewon-lee-VfhoKbFv16Y-unsplash.jpg");
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    border-radius: 0px!important;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .jumbotron-fluid{
-    height: 80vh;
+    height: 60vh;
 }
 .introContainer{
     padding: 15%;
@@ -23,8 +20,6 @@
 }
 .imageDescrip{
     padding: 50px;
-    
-
 }
 .imagePaint{
     width: 600px;
@@ -47,4 +42,7 @@ li {
 .my-4{
     margin-top: 1.5rem!important;
     margin-bottom: 1.5rem!important;
+}
+.container{
+    padding-top: 10%;
 }
